@@ -20,8 +20,8 @@ However, no code was released with this paper. The version provided here was the
 
 ## 📂 Contents
 
-- `GTB_Mathematica.nb` — Mathematica notebook submitted with the arXiv ancillary files
-- `GTB_MATLAB.m` — MATLAB notebook submitted with the arXiv ancillary files
+- `GTB_numerics.nb` — Mathematica notebook submitted with the arXiv ancillary files
+- `GTB_numerics.m` — MATLAB notebook submitted with the arXiv ancillary files
 
 These files are preserved here as a **historical record** for reproducibility and archival purposes.
 
