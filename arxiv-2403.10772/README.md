@@ -11,8 +11,8 @@ This folder contains the **original version** of the *Gauge Theory Bootstrap (GT
 
 The *Gauge Theory Bootstrap* framework was first introduced in:
 
-> **Title:** [Bootstrapping Gauge Theories](https://arxiv.org/abs/2309.12402)
-> **Authors:** Yifei He, Martin Kruczenski
+> **Title:** [Bootstrapping Gauge Theories](https://arxiv.org/abs/2309.12402)  
+> **Authors:** Yifei He, Martin Kruczenski  
 > **arXiv ID:** 2309.12402  
 > **Date:** September 2023
 
@@ -29,8 +29,8 @@ These files are preserved here as a **historical record** for reproducibility an
 
 This version of the code is **no longer actively maintained**. An updated implementation, used in:
 
-> **Title:** [The Gauge Theory Bootstrap: Predicting pion dynamics from QCD](https://arxiv.org/abs/2505.19332)
-> **Authors:** Yifei He, Martin Kruczenski
+> **Title:** [The Gauge Theory Bootstrap: Predicting pion dynamics from QCD](https://arxiv.org/abs/2505.19332)  
+> **Authors:** Yifei He, Martin Kruczenski  
 > **arXiv ID:** 2505.19332  
 > **Date:** May 2025
 
