@@ -1,6 +1,6 @@
 # Historical Code Snapshot — arXiv:2403.10772
 
-This folder contains the **original version** of the *Gauge Theory Bootstrap (GTB)* code that was submitted as ancillary files with the following paper:
+This folder contains the original version of the *Gauge Theory Bootstrap (GTB)* code that was submitted as ancillary files with the following paper:
 
 > **Title:** [Gauge Theory Bootstrap: Pion amplitudes and low energy parameters](https://arxiv.org/abs/2403.10772)  
 > **Authors:** Yifei He, Martin Kruczenski  
