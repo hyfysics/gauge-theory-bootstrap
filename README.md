@@ -1,3 +1,2 @@
-# GTB
-Gauge Theory Bootstrap
+# Gauge Theory Bootstrap
 ![GTB Overview](GTBscope.png)
