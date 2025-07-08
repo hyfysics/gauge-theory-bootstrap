@@ -1,2 +1,2 @@
 # Gauge Theory Bootstrap
-![GTB Overview](GTBscope.png)
+<img src="GTBscope.png" alt="GTB Plot" width="500"/>
