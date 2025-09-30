@@ -1,6 +1,6 @@
 # Gauge Theory Bootstrap (QCD)
 
-<p align="left">
+<p align="center">
   <img src="theories/qcd/docs/figures/GTBscope.png" alt="Workflow" width="200"/>
 </p>
 This repository contains the **Gauge Theory Bootstrap** code applied to **QCD**.  
