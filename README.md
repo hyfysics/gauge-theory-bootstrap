@@ -52,7 +52,7 @@ gauge-theory-bootstrap/
         │   ├── matrices/   ← numerical kernels from step 01
         │   ├── results/    ← optimization results from step 02
         │   └── figures/    ← plots from step 03
-        └── paper/          ← snapshots associated with arXiv papers
+        └── papers/          ← snapshots associated with arXiv papers
             ├── arxiv-2403.10772/
             └── arxiv-2505.19332/
 
@@ -60,7 +60,7 @@ gauge-theory-bootstrap/
 
 - `src/` – notebooks and scripts for each step.  
 - `data/` – empty by default; filled when you run the pipeline.  
-- `paper/` – frozen snapshots corresponding to published arXiv papers.
+- `papers/` – frozen snapshots corresponding to published arXiv papers.
 
 ---
 
