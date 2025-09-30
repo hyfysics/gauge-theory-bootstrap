@@ -38,7 +38,7 @@ Reproduce the basic GTB_QCD pipeline in three steps:
 ## Repository layout
 
 ```text
-GaugeTheoryBootstrap/
+gauge-theory-bootstrap/
 ├── README.md               ← this file
 └── theories/
     └── qcd/
@@ -56,7 +56,7 @@ GaugeTheoryBootstrap/
             ├── arxiv-2403.10772/
             └── arxiv-2505.19332/
 
----
+```
 
 - `src/` – notebooks and scripts for each step.  
 - `data/` – empty by default; filled when you run the pipeline.  
