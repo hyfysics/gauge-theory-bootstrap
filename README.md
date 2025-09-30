@@ -2,7 +2,7 @@
 
 This repository contains the **Gauge Theory Bootstrap** code applied to **QCD**.  
 <p align="center">
-  <img src="theories/qcd/docs/figures/GTBscope.png" alt="Workflow" width="400"/>
+  <img src="theories/qcd/docs/figures/GTBscope.png" alt="Workflow" width="200"/>
 </p>
 The workflow combines **Mathematica** and **MATLAB**: Mathematica generates numerical kernels, MATLAB runs the optimization, and Mathematica plots the results.
 
