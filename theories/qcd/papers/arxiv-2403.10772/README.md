@@ -13,8 +13,10 @@ used in the paper:
 
 ## Current version
 The actively maintained and improved code is located in the main branch under:
+```text
 theories/qcd/src/
 theories/qcd/data/
+```
 and corresponds to more recent work (see [arXiv:2505.19332](https://arxiv.org/abs/2505.19332)).
 
 ---
