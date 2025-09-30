@@ -37,6 +37,7 @@ Reproduce the basic GTB_QCD pipeline in three steps:
 
 ## Repository layout
 
+```text
 GaugeTheoryBootstrap/
 ├── README.md               ← this file
 └── theories/
@@ -47,11 +48,11 @@ GaugeTheoryBootstrap/
         │   │   ├── gtb_qcd_03_plot_results.nb
         │   └── matlab/
         │       └── gtb_qcd_02_optimize.m
-        ├── data/           ← generated artifacts
+        ├── data/           ← generated artifacts (not versioned)
         │   ├── matrices/   ← numerical kernels from step 01
         │   ├── results/    ← optimization results from step 02
         │   └── figures/    ← plots from step 03
-        └── paper/          ← historical snapshots associated with arXiv papers
+        └── paper/          ← snapshots associated with arXiv papers
             ├── arxiv-2403.10772/
             └── arxiv-2505.19332/
 
@@ -76,17 +77,17 @@ This program has been used in several papers, with more developments ongoing. To
 
 - **Bootstrapping gauge theories**  
   - [arXiv:2309.12402](https://arxiv.org/abs/2309.12402)  
-  - This was the original conceptual proposal of the Gauge Theory Bootstrap.  
+  - Original proposal of the Gauge Theory Bootstrap.  
   - No public code was provided at the time.
 
 - **Gauge Theory Bootstrap: Pion amplitudes and low energy parameters**  
   - [arXiv:2403.10772](https://arxiv.org/abs/2403.10772)  
-  - A historical version of the program was released with this paper.  
-  - The snapshot is archived under:  
+  - First released version of the program.  
+  - Snapshot archived under:  
     `theories/qcd/paper/arxiv-2403.10772/`.
 
 - **The Gauge Theory Bootstrap: Predicting pion dynamics from QCD**  
   - [arXiv:2505.19332](https://arxiv.org/abs/2505.19332)  
-  - This repository (main branch) corresponds to the current version used in this paper.  
-  - The snapshot is archived under:  
+  - Current version of the program (main branch). 
+  - Snapshot archived under:  
     `theories/qcd/paper/arxiv-2505.19332/`.
