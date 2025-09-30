@@ -56,6 +56,8 @@ GaugeTheoryBootstrap/
             ├── arxiv-2403.10772/
             └── arxiv-2505.19332/
 
+---
+
 - `src/` – notebooks and scripts for each step.  
 - `data/` – empty by default; filled when you run the pipeline.  
 - `paper/` – frozen snapshots corresponding to published arXiv papers.
