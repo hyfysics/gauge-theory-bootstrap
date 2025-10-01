@@ -74,7 +74,7 @@ gauge-theory-bootstrap/
 - **Mathematica** ≥ 12.0  
 - **MATLAB** ≥ R2019b  
   - [CVX](http://cvxr.com/cvx/) (convex optimization package)  
-  - [MOSEK](https://www.mosek.com/) (solver backend)   
+  - [MOSEK license](https://www.mosek.com/products/academic-licenses/) (academic license for using mosek solver in cvx)   
 
 ---
 
