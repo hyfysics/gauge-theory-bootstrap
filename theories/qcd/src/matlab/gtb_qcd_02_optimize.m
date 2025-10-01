@@ -5,9 +5,8 @@ clear; clc;
 
 %% ------------------------------- Paths ----------------------------------
 here = fileparts(mfilename('fullpath'));                 % ...\theories\qcd\src\matlab
-% Go up 4 levels: matlab -> src -> qcd -> theories -> (repo root)
-repo_root = fileparts(fileparts(fileparts(fileparts(here))));
-qcd_root  = fullfile(repo_root, 'theories', 'qcd');
+% Go up 2 levels: matlab -> src -> qcd (qcd root)
+qcd_root = fileparts(fileparts(here));
 
 matrices_dir = fullfile(qcd_root, 'data', 'matrices');   % inputs from Mathematica
 results_dir  = fullfile(qcd_root, 'data', 'results');    % outputs from MATLAB
