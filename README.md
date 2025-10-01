@@ -91,10 +91,10 @@ This program has been used in several papers, with more developments ongoing. To
   - [arXiv:2403.10772](https://arxiv.org/abs/2403.10772)  
   - First released version of the program.  
   - Snapshot archived under:  
-    `theories/qcd/paper/arxiv-2403.10772/`.
+    `theories/qcd/papers/arxiv-2403.10772/`.
 
 - **The Gauge Theory Bootstrap: Predicting pion dynamics from QCD**  
   - [arXiv:2505.19332](https://arxiv.org/abs/2505.19332)  
   - Current version of the program (main branch). 
   - Snapshot archived under:  
-    `theories/qcd/paper/arxiv-2505.19332/`.
+    `theories/qcd/papers/arxiv-2505.19332/`.
