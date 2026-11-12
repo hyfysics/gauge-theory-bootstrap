@@ -29,9 +29,6 @@ Reproduce the basic GTB_QCD pipeline in three steps:
    - Open `theories/qcd/GTB_program/mathematica/gtb_results_plot.nb`.  
    - Evaluate the notebook.  
 
-**Pipeline:**  
-👉 Mathematica (`gtb_generate_matrices.nb`) → Python (`gtb.ipynb`) → Mathematica (`gtb_results_plot.nb`)
-
 ---
 
 ## Repository layout
@@ -68,7 +65,7 @@ gauge-theory-bootstrap/
 
 ## Paper snapshots
 
-This program has been used in several papers, with more developments ongoing. To ensure reproducibility, we provide snapshots of the code used for each one:
+Paper using previous versions of the program:
 
 - **Bootstrapping gauge theories**  
   - [arXiv:2309.12402](https://arxiv.org/abs/2309.12402)  
