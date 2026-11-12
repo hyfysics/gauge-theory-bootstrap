@@ -6,7 +6,7 @@
 
 
 This repository contains the **Gauge Theory Bootstrap** code applied to **QCD**.  
-The workflow combines **Mathematica** and **MATLAB**: Mathematica generates numerical kernels, MATLAB runs the optimization, and Mathematica plots the results.
+The workflow combines **Mathematica** and **Python**: Mathematica generates numerical kernels, Python runs the optimization, and Mathematica plots the results.
 
 ---
 
@@ -15,28 +15,22 @@ The workflow combines **Mathematica** and **MATLAB**: Mathematica generates nume
 Reproduce the basic GTB_QCD pipeline in three steps:
 
 1. **Generate matrices (Mathematica)**  
-   - Open `theories/qcd/src/mathematica/gtb_qcd_01_generate_matrices.nb` in Mathematica.  
+   - Open `theories/qcd/GTB_program/gtb_generate_matrices.nb` in Mathematica.  
    - Evaluate the notebook.  
    - Output: matrices and kernels are written into  
-     `theories/qcd/data/matrices/`.
+     `theories/qcd/GTB_program/data/matrices/`.
 
-2. **Run optimization (MATLAB)**  
-   - Open MATLAB in the repo root.  
-   - Run:  
-     ```matlab
-     run('theories/qcd/src/matlab/gtb_qcd_02_optimize.m')
-     ```  
+2. **Run optimization (Python)**  
+   - Open 'theories/qcd/GTB_program/gtb.ipynb' in Jupyter notebook and run 
    - Output: optimization results are saved into  
-     `theories/qcd/data/results/` (in `.json` formats).
+     `theories/qcd/GTB_program/data/results/` (in `.json` formats).
 
 3. **Plot results (Mathematica)**  
-   - Open `theories/qcd/src/mathematica/gtb_qcd_03_plot_results.nb`.  
+   - Open `theories/qcd/GTB_program/mathematica/gtb_results_plot.nb`.  
    - Evaluate the notebook.  
-   - Output: figures are exported into  
-     `theories/qcd/data/figures/`.
 
 **Pipeline:**  
-👉 Mathematica (`gtb_qcd_01_generate_matrices.nb`) → MATLAB (`gtb_qcd_02_optimize.m`) → Mathematica (`gtb_qcd_03_plot_results.nb`)
+👉 Mathematica (`gtb_generate_matrices.nb`) → Python (`gtb.ipynb`) → Mathematica (`gtb_results_plot.nb`)
 
 ---
 
@@ -44,37 +38,31 @@ Reproduce the basic GTB_QCD pipeline in three steps:
 
 ```text
 gauge-theory-bootstrap/
-├── README.md               ← this file
+├── README.md
 └── theories/
     └── qcd/
-        ├── src/            ← source code
-        │   ├── mathematica/
-        │   │   ├── gtb_qcd_01_generate_matrices.nb
-        │   │   ├── gtb_qcd_03_plot_results.nb
-        │   └── matlab/
-        │       └── gtb_qcd_02_optimize.m
-        ├── data/           ← generated artifacts (not versioned)
-        │   ├── matrices/   ← numerical kernels from step 01
-        │   ├── results/    ← optimization results from step 02
-        │   └── figures/    ← plots from step 03
-        └── papers/          ← snapshots associated with arXiv papers
+        ├── GTB_program/
+        │   ├── gtb_generate_matrices.nb
+        │   ├── gtb.ipynb
+        │   ├── gtb_results_plot.nb
+        │   ├── data/
+        │   │   ├── matrices/
+        │   │   └── results/
+        │   └── Phi_compute/
+        │
+        └── papers/          ← snapshots associated with previous papers
             ├── arxiv-2403.10772/
             └── arxiv-2505.19332/
 
 ```
 
-- `src/` – notebooks and scripts for each step.  
-- `data/` – empty by default; filled when you run the pipeline.  
-- `papers/` – frozen snapshots corresponding to published arXiv papers.
-
 ---
 
 ## Requirements
 
-- **Mathematica** ≥ 12.0  
-- **MATLAB** ≥ R2019b  
-  - [CVX](http://cvxr.com/cvx/) (convex optimization package)  
-  - [MOSEK license](https://www.mosek.com/products/academic-licenses/) (academic license for using mosek solver in cvx)   
+- **Mathematica** 
+- **Python**   
+  - need mosek fusion [MOSEK license](https://www.mosek.com/products/academic-licenses/)   
 
 ---
 
